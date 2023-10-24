@@ -6,12 +6,11 @@
 /*   By: nlaerema <nlaerema@student.42lehavre.fr>	+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 10:58:17 by nlaerema          #+#    #+#             */
-/*   Updated: 2023/10/24 03:20:25 by nlaerema         ###   ########.fr       */
+/*   Updated: 2023/10/24 19:45:59 by nlaerema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <stdio.h>
 
 static void	update_len(t_char_buf *oldbuf, t_char_buf *line)
 {
